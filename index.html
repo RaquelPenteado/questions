@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="content">
+        <div class="card">
+        <form>
+
+            <header id="cabecalho">
+                <h1 id="titulo">Perguntas</h1>
+            </header>
+            
+            <div class="inputs">
+            <label for="name" id="Label">Nome</label>
+            <input type="text" id="name" required placeholder="">
+            <label for="age" id="Label">Idade</label>
+            <input type="number" id="age" placeholder="">
+            <label for="email" id="Label">Email</label>
+            <input type="email" id="email" required placeholder="">
+            </div>
+
+            <fieldset class="questions1">
+                <p id="pergunta">Há quanto tempo você estuda programação?</p>
+                <div class="radio">
+                <input type="radio" id="menos1ano">
+                <label for="menos1ano"> Menos de 1 ano</label><br>
+                <input type="radio" id="2anos">
+                <label for="2anos"> 2 anos ou mais</label><br>
+                <input type="radio" id="maisde5">
+                <label for="maisde5"> Mais de 5 anos</label>
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                <p id="pergunta">Em qual área você atua ou gostaria de atuar?</p>
+                <div class="radio">
+                <input type="checkbox" id="frontend">
+                <label for="frontend">Front-end</label>
+
+                <input type="checkbox" id="backend">
+                <label for="backend">Back-end</label>
+
+                <input type="checkbox" id="fullstack">
+                <label for="fullstack">Fullstack</label>
+
+                <input type="checkbox" id="outro">
+                <label for="outro">Outro</label>
+                </div>
+            </fieldset>
+
+            <button type="submit" class="button">Enviar</button>
+
+        </form>
+        </div>
+    </div>
+</body>
+</html>

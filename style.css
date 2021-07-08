@@ -1,0 +1,74 @@
+.content{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   margin-top: 70px;
+}
+
+.card{
+    background-color: #b9a99e;
+    padding: 30px;
+    border-radius: 0 10px 10px 10px;
+    box-shadow: 3px 3px 1px #00000060;
+}
+
+#titulo{
+    text-align: center;
+    color: #220037;
+}
+
+.inputs{
+    color:#220037;
+    font-weight: 700;
+    text-align: center;
+}
+
+.inputs input{
+    outline: none;
+    padding: 2px;
+    color: #370457;
+    background-color: rgba(255, 255, 255, 0.438);
+    display: block;
+    text-align: center;
+    width: 100%;
+    border-radius: 0 10px 10px 10px;
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    transition: filter .3 ;
+}
+
+input:hover{
+    filter: brightness(1.5);
+    background-color: rgba(255, 255, 255, 0.514);
+}
+
+fieldset .radio{
+    align-items: center;
+    color: #370457;
+    
+}
+
+#pergunta{
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 1.6rem;
+    color: #220037;
+    font-weight: 700;
+}
+
+button{
+    padding: .7rem;
+    border-radius: 0 10px 10px 10px;
+    margin-left: 43%;
+    margin-top: 2.0rem;
+    color: #370457;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #ae97f0;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    color: white;
+}
+
+
